@@ -161,6 +161,7 @@ body {
 /* ----------ultimate feature section start ------------ */
 .ultimate-feature{
   margin-top: 180px;
+  margin: 0 20px;
 }
 /* ----------ultimate feature section end ------------ */
 
@@ -197,6 +198,7 @@ body {
 /* -----------testimonial section start------------  */
 .testimonial{
   margin-top: 150px;
+  margin: 0 20px;
 }
 .ratting .fa-star{
   color: rgb(189, 189, 15);
@@ -231,10 +233,20 @@ body {
 /* -----------download section start-----------  */
 .download{
   margin-top: 150px;
+  margin: 0 20px;
 }
 /* -----------download section end-----------  */
 /* ----------footer section start----------  */
 .footer{
   background: #09142e;
+}
+.footer-icon{
+  color: rgb(141, 134, 134);
+}
+.footer-icon:hover{
+  color: whitesmoke;
+}
+.copyright p{
+  color: rgb(112 110 110);
 }
 /* ----------footer section end----------  */
