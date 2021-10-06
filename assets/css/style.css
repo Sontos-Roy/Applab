@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: var(--pop-reg);
-  font-size: 18px;
+  font-size: 17px;
 }
 :root {
   /* fonts */
@@ -194,11 +194,47 @@ body {
 }
 /* ---------pricing section end ---------- */
 
-/* testimonial section start  */
+/* -----------testimonial section start------------  */
 .testimonial{
   margin-top: 150px;
 }
 .ratting .fa-star{
   color: rgb(189, 189, 15);
 }
-/* testimonial section end  */
+/* -----------testimonial section end------------  */
+
+/* -----------question section start ------------- */
+.question{
+  margin-top: 150px;
+}
+.c-accordion-item{
+  background: #f5f7fa !important;
+  border: 0;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.c-accordion-item button:focus{
+  border: none;
+  box-shadow: none !important;
+}
+.c-accordion-item button{
+  background: #f5f7fa !important;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url(../image/nothing.png) !important;
+}
+.accordion-button::after{
+  background-image: url(../image/plus.png) !important;
+}
+/* -----------question section end ------------- */
+
+/* -----------download section start-----------  */
+.download{
+  margin-top: 150px;
+}
+/* -----------download section end-----------  */
+/* ----------footer section start----------  */
+.footer{
+  background: #09142e;
+}
+/* ----------footer section end----------  */
